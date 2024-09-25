@@ -1,0 +1,123 @@
+/* your styles go here */
+form {
+    width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #2d3035;
+}
+
+form label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 8px;
+    font-size: 14px;
+    color: #ccc;
+}
+
+form input[type="text"],
+form input[type="file"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+form .btn {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+form .btn:hover {
+    background-color: #0056b3;
+}
+.pagination-wrap ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 8px;
+}
+.pagination-wrap {
+    margin-top: 40px;
+}
+
+.pagination-wrap ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.pagination-wrap ul li {
+    display: inline-block;
+}
+
+.pagination-wrap ul li a {
+    color: #c1bcbc;
+    font-size: 15px;
+    background-color: #2d3035;
+    display: inline-block;
+    padding: 8px 14px;
+    border-radius: 5px;
+    margin: 3px;
+    font-weight: 600;
+    border-radius: 50px;
+}
+
+.pagination-wrap ul li a.active {
+    background-color: #f45e43;
+}
+.page-header table thead{
+    border: #d45764 solid 1px ;
+    font-size: large;
+
+}
+.page-header table{
+    border: #d45764 ;
+
+}
+.page-header th{
+    border:#d45764 solid 1px ;
+    padding:4px 8px;
+}
+.page-header td{
+    border: #d45764 solid 1px;
+    padding:4px 8px;
+}
+.page-header td .delete {
+    text-decoration: none;
+    font-size: 14px;
+    margin-left: 10px;
+    padding: 6px 12px;
+    border: 1px solid #9a1b0f;
+    border-radius: 4px;
+    transition: background-color 0.2s, color 0.2s;
+    color: #dc3545;
+    border-color: #dc3545;
+}
+.page-header td a.edit {
+    color: #1cb10b;
+    border-color: #1d750b;
+    text-decoration: none;
+    font-size: 14px;
+    margin-left: 10px;
+    padding: 6px 12px;
+    border: 1px solid #1d750b;
+    border-radius: 4px;
+    transition: background-color 0.2s, color 0.2s;
+}
+.page-header td a.delete:hover {
+    background-color: #d45764;
+}
+.page-header td a.edit:hover {
+    background-color: #7cf165;
+}
+
